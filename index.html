@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Desa Lawallu</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="bootsrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- Title Icon -->
+    <link rel="shortcut icon" href="img/LOGO-KABUPATEN-BARRU.png" />
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Google Fonts Source: https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fonts Awesome Icons Source: https://fontawesome.com/icons-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Fancybox CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-primary">
+      <div class="container">
+        <div class="navbar-brand">
+          <div class="row">
+            <div class="col-4">
+              <a
+                href="img/LOGO-KABUPATEN-BARRU1.png"
+                data-fancybox="logo barru"
+              >
+                <img src="img/LOGO-KABUPATEN-BARRU1.png" width="40" />
+              </a>
+            </div>
+
+            <div class="col-8 wrap-nama-desa">
+              <p class="namaDesa">Desa Lawallu</p>
+              <p class="kabDesa">Kabupaten Barru</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a
+              class="nav-link active js-scroll-trigger"
+              aria-current="page"
+              href="#beranda"
+              >Beranda</a
+            >
+            <a class="nav-link active js-scroll-trigger" href="#profil_desa"
+              >Profil Desa</a
+            >
+            <a class="nav-link active js-scroll-trigger" href="#produk_umkm"
+              >Produk Umkm</a
+            >
+            <a class="nav-link active js-scroll-trigger" href="#potensi_wisata"
+              >Potensi Wisata</a
+            >
+            <a class="nav-link active js-scroll-trigger" href="#gallery"
+              >Galery</a
+            >
+            <a class="nav-link active js-scroll-trigger" href="#contact"
+              >Kontak</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End -->
+
+    <!-- Jumbottron -->
+    <div id="beranda">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="img/FOTO ROMBONGAN.jpg" data-fancybox="gambar">
+              <img
+                src="img/FOTO ROMBONGAN.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="img/KANTOR DESA.jpg" data-fancybox="gambar">
+              <img src="img/KANTOR DESA.jpg" class="d-block w-100" alt="..." />
+            </a>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="text-center">
+        <h1
+          class="display-4 mt-4 viga"
+          data-aos="fade-down"
+          data-aos-duration="700"
+        >
+          Kepala Desa
+        </h1>
+        <a href="img/KEPALA DESA.jpg" data-fancybox="kepala_desa">
+          <img
+            src="img/KEPALA DESA.jpg"
+            alt="Kepala desa"
+            width="200"
+            class="rounded-circle img-thumbnail"
+            data-aos="zoom-in"
+            data-aos-duration="1200"
+          />
+        </a>
+        <p class="nama lead"></p>
+
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h2 class="viga" data-aos="fade-down" data-aos-duration="700">
+                Kepala Dusun
+              </h2>
+            </div>
+          </div>
+          <div class="row mb-4 justify-content-center">
+            <div class="col-4">
+              <a href="img/KEPALA DUSUN1.png" data-fancybox="kepala_dusun">
+                <img
+                  src="img/KEPALA DUSUN1.png"
+                  width="200"
+                  class="rounded-circle img-thumbnail"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                />
+              </a>
+              <p class="mt-1" data-aos="zoom-out" data-aos-duration="1300">
+                Jumaidi <br />
+                (Lawallu)
+              </p>
+            </div>
+            <div class="col-4">
+              <a href="img/KEPALA DUSUN2.png" data-fancybox="kepala_dusun">
+                <img
+                  src="img/KEPALA DUSUN2.png"
+                  width="200"
+                  class="rounded-circle img-thumbnail"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                />
+              </a>
+              <p class="mt-1" data-aos="zoom-out" data-aos-duration="1300">
+                Hasnawati <br />
+                (Oring)
+              </p>
+            </div>
+            <div class="col-4">
+              <a href="img/KEPALA DUSUN3.png" data-fancybox="kepala_dusun">
+                <img
+                  src="img/KEPALA DUSUN3.png"
+                  width="200"
+                  class="rounded-circle img-thumbnail"
+                  data-aos="zoom-in"
+                  data-aos-duration="1200"
+                />
+              </a>
+              <p class="mt-1" data-aos="zoom-out" data-aos-duration="1300">
+                Akkas <br />
+                (Tanrabalana)
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-11 col-md-12">
+              <p data-aos="zoom-out" data-aos-duration="1200">
+                Salam Sejahtera dan Selamat Datang di Website Sistem Informasi
+                Desa Lawallu Kecamatan Soppeng Riaja Kabupaten Barru. Semoga
+                melalui media website ini, kebutuhan informasi dan layanan
+                komunikasi dapat memenuhi harapan masyarakat dan pihak-pihak
+                berkepentingan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#c8ddff"
+          fill-opacity="1"
+          d="M0,32L48,53.3C96,75,192,117,288,128C384,139,480,117,576,101.3C672,85,768,75,864,90.7C960,107,1056,149,1152,165.3C1248,181,1344,171,1392,165.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+    <!-- End -->
+
+    <!-- Profil Desa -->
+    <section id="profil_desa">
+      <div class="container">
+        <div class="row text-center mb-4">
+          <div class="col">
+            <h2 class="viga" data-aos="fade-down" data-aos-duration="700">
+              PROFIL DESA
+            </h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-12 col-11">
+            <p
+              style="text-align: justify; text-indent: 50px"
+              data-aos="zoom-out"
+              data-aos-duration="1200"
+            >
+              Desa Lawallu terletak di Kecamatan Soppeng Riaja, Kabupaten Barru,
+              Provinsi Sulawesi Selatan. Berdasarkan data SDGs Desa Tahun 2022,
+              jumlah penduduk Desa Lawallu sebanyak 2.236 jiwa. Penduduk desa
+              terdiri dari laki-laki sebanyak 1.057 jiwa dan perempuan berjumlah
+              1.179 jiwa yang tersebar di 3 dusun yaitu Dusun Lawallu, Dusun
+              Tanrabalana, dan Dusun Oring. Sebagian besar penduduk desa lawallu
+              merupakan usia produktif antara 16-50 tahun.
+            </p>
+          </div>
+          <div class="col-md-12 col-11">
+            <p
+              style="text-align: justify; text-indent: 50px"
+              data-aos="zoom-out"
+              data-aos-duration="1200"
+            >
+              Luas wilayah di Desa Lawallu yaitu 610.00 Ha dengan sebagian besar
+              wilayahnya berupa dataran dengan mayoritas penggunaan lahannya
+              untuk pertanian dan sebagian kecil wilayahnya berupa pesisir
+              dengan mayoritas penggunaan lahannya untuk perikanan. Wilayaha
+              Desa Lawallu terletak di poros utama Jalan Soppeng Riaja - Barru,
+              dengan jarak ke ibukota kecematan 2.00 km dan jarak ke ibukota
+              kabupaten 22.00 km. Batas wilayah Desa Lawallu yaitu di sebelah
+              utara berbatasan dengan Desa Siddo Kec. Mallusetasi, di sebalah
+              selatan berbatasan dengan Kelurahan Mangkoso Kec. Balusu, di
+              sebelah timur berbatasan dengan Kelurahan Kiru-kiru Kec. Soppeng
+              Riaja Dan di sebelah barat berbatasan Laut Selat Makassar.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,192L48,202.7C96,213,192,235,288,256C384,277,480,299,576,288C672,277,768,235,864,229.3C960,224,1056,256,1152,272C1248,288,1344,288,1392,288L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End -->
+
+    <!-- Produk Umkm -->
+    <section id="produk_umkm">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2 class="viga" data-aos="fade-down" data-aos-duration="700">
+              PRODUK UMKM
+            </h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
+            <a href="img/Kue Teropong.JPG" data-fancybox="produk umkm">
+              <img src="img/Kue Teropong.JPG" class="w-100 rounded" />
+            </a>
+          </div>
+          <div class="col-md-8">
+            <h4 class="mt-3 mb-3" data-aos="zoom-out" data-aos-duration="1200">
+              Kue Teropong
+            </h4>
+            <p
+              style="text-align: justify; text-indent: 50px"
+              data-aos="zoom-out"
+              data-aos-duration="1500"
+            >
+              Kue Teropong merupakan salah satu jenis kue kering yang di
+              produksi oleh pelaku umkm yang tergabung dalam rumah produksi dari
+              kelompok bunga wellu 2 (Dua). Kue Teropong tersebut berbahan dasar
+              terigu, gula pasir dan mentega. Kue kering ini di jadikan salah
+              satu sampingan pendapatan para ibu rumah tangga di desa lawallu.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#c8ddff"
+          fill-opacity="1"
+          d="M0,192L34.3,181.3C68.6,171,137,149,206,160C274.3,171,343,213,411,218.7C480,224,549,192,617,176C685.7,160,754,160,823,176C891.4,192,960,224,1029,234.7C1097.1,245,1166,235,1234,208C1302.9,181,1371,139,1406,117.3L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End -->
+
+    <!-- Potensi Wisata -->
+    <section id="potensi_wisata">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2 class="viga" data-aos="fade-down" data-aos-duration="700">
+              POTENSI WISATA
+            </h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-8">
+            <div id="carouselExampleIndicators" class="carousel slide">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
+              </div>
+              <div
+                class="carousel-inner"
+                data-aos="zoom-in"
+                fs-5
+                data-aos-duration="1000"
+              >
+                <div class="carousel-item active">
+                  <a href="img/dermaga4.jpg" data-fancybox="dermaga">
+                    <img src="img/dermaga4.jpg" class="d-block w-100" alt="..."
+                  /></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="img/dermaga5.jpg" data-fancybox="dermaga">
+                    <img src="img/dermaga5.jpg" class="d-block w-100" alt="..."
+                  /></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="img/dermaga2.jpg" data-fancybox="dermaga">
+                    <img src="img/dermaga2.jpg" class="d-block w-100" alt="..."
+                  /></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="img/dermaga1.jpg" data-fancybox="dermaga">
+                    <img src="img/dermaga1.jpg" class="d-block w-100" alt="..."
+                  /></a>
+                </div>
+                <div class="carousel-item">
+                  <a href="img/dermaga3.jpg" data-fancybox="dermaga">
+                    <img src="img/dermaga3.jpg" class="d-block w-100" alt="..."
+                  /></a>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <h4 class="mt-4 mb-3" data-aos="zoom-out" data-aos-duration="1200">
+              Wisata Dermaga
+            </h4>
+            <p
+              style="text-align: justify; text-indent: 50px"
+              data-aos="zoom-out"
+              data-aos-duration="1500"
+            >
+              Wilayah Desa Lawallu memiliki salah satu icon yang dapat menarik
+              wisatawan untuk di jadikan tempat Refresing sekaligus tempat
+              menikmati suasana alam yang masih terjaga yaitu Wisata Dermaga.
+              Warga Desa Lawallu dan juga warga dari luar wilayah Lawallu banyak
+              yang berkunjung ke dermaga tersebut. Adapun lokasi jarak tempat
+              Wisata Dermaga dari jalan poros yaitu kurang lebih 800 m.
+              Destinasi wisata ini sangat cocok untuk menikmati sunset, berenang
+              di sekitar dermaga dan juga menjadi tempat melepas penat.
+            </p>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,256L34.3,256C68.6,256,137,256,206,240C274.3,224,343,192,411,170.7C480,149,549,139,617,160C685.7,181,754,235,823,229.3C891.4,224,960,160,1029,154.7C1097.1,149,1166,203,1234,224C1302.9,245,1371,235,1406,229.3L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End -->
+
+    <!-- Galery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2 class="viga" data-aos="fade-down" data-aos-duration="700">
+              GALERY FOTO
+            </h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div
+            class="col-lg-4 col-md-4 mb-4 col-6"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <a href="img/galery2.jpg" data-fancybox="galery">
+              <img src="img/galery2.jpg" class="shadow w-100 rounded" />
+            </a>
+          </div>
+          <div
+            class="col-lg-4 col-md-4 mb-4 col-6"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <a href="img/galery1.jpg" data-fancybox="galery">
+              <img src="img/galery1.jpg" class="shadow w-100 rounded" />
+            </a>
+          </div>
+          <div
+            class="col-lg-4 col-md-4 mb-4 col-6"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <a href="img/galery3.jpg" data-fancybox="galery">
+              <img src="img/galery3.jpg" class="shadow w-100 rounded" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#c8ddff"
+          fill-opacity="1"
+          d="M0,64L34.3,80C68.6,96,137,128,206,144C274.3,160,343,160,411,149.3C480,139,549,117,617,133.3C685.7,149,754,203,823,202.7C891.4,203,960,149,1029,149.3C1097.1,149,1166,203,1234,202.7C1302.9,203,1371,149,1406,122.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End -->
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col text-center">
+            <h2 class="viga" data-aos="fade-down" data-aos-duration="700">
+              KONTAK KAMI
+            </h2>
+          </div>
+        </div>
+        <div class="row mb-4 text-center">
+          <div
+            class="wrapper padding-bottom-5rem justify-content-center"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+          >
+            <div class="col-4">
+              <a
+                class="color-black"
+                href="https://wa.me/6285240332628/?text="
+                target="_blank"
+              >
+                <div class="icon whatsapp color-black">
+                  <div class="tooltip">0852-4033-2628</div>
+                  <span><i class="fab fa-whatsapp"></i></span>
+                </div>
+              </a>
+              <p class="mt-1">whatsapp</p>
+            </div>
+
+            <div class="col-4">
+              <a
+                class="color-black"
+                href="https://www.google.com/maps/place/QJ2C%2BX95,+Lawallu,+Kec.+Soppeng+Riaja,+Kabupaten+Barru,+Sulawesi+Selatan/@-4.2476071,119.6184095,17z/data=!3m1!4b1!4m5!3m4!1s0x2d95900f9013742f:0x8a882e50eda172!8m2!3d-4.2476125!4d119.6209844?entry=ttu"
+                target="_blank"
+              >
+                <div class="icon map color-black">
+                  <div class="tooltip">Lokasi Desa Lawallu</div>
+                  <span><i class="fa-solid fa-map-location-dot"></i></span>
+                </div>
+              </a>
+              <p class="mt-1">lokasi</p>
+            </div>
+
+            <div class="col-4">
+              <a
+                class="color-black"
+                href="mailto:desalawallu122@gmail.com"
+                target="_blank"
+              >
+                <div class="icon envelope color-black">
+                  <div class="tooltip">desalawallu122@gmail.com</div>
+                  <span><i class="fas fa-envelope"></i></span>
+                </div>
+              </a>
+              <p class="mt-1">email</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffffff"
+          fill-opacity="1"
+          d="M0,192L34.3,202.7C68.6,213,137,235,206,250.7C274.3,267,343,277,411,250.7C480,224,549,160,617,154.7C685.7,149,754,203,823,218.7C891.4,235,960,213,1029,192C1097.1,171,1166,149,1234,144C1302.9,139,1371,149,1406,154.7L1440,160L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    <!-- End -->
+
+    <!-- Logo -->
+    <section>
+      <div class="container">
+        <div class="row justify-content-center pb-5">
+          <div class="col-4" data-aos="zoom-out" data-aos-duration="1000">
+            <a href="img/Amkop.png" data-fancybox="logo">
+              <img src="img/Amkop.png" class="responsive" />
+            </a>
+          </div>
+          <div class="col-4" data-aos="zoom-out" data-aos-duration="1000">
+            <a href="img/LOGO-KABUPATEN-BARRU1.png" data-fancybox="logo">
+              <img src="img/LOGO-KABUPATEN-BARRU1.png" class="responsive" />
+            </a>
+          </div>
+          <div class="col-4" data-aos="zoom-out" data-aos-duration="1000">
+            <a href="img/Kemendes_Logo.png" data-fancybox="logo">
+              <img src="img/Kemendes_Logo.png" class="responsive" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End -->
+
+    <!-- Footer -->
+    <footer>&copy; Desa Lawallu 2023</footer>
+    <!-- End -->
+
+    <!-- Jquery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+    <!-- Fancybox Js -->
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- GSAP JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+    <script>
+      gsap.registerPlugin(TextPlugin);
+      gsap.to(".nama", {
+        duration: 1.5,
+        delay: 0.3,
+        text: "Raswady",
+      });
+    </script>
+
+    <!-- Navbar hide if click -->
+    <script type="text/javascript">
+      $(".js-scroll-trigger").click(function () {
+        $(".navbar-collapse").collapse("hide");
+      });
+    </script>
+
+    <!-- Bootsrap JS -->
+    <script
+      src="bootsrap/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
